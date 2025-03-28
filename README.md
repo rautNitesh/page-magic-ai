@@ -1,8 +1,11 @@
+
 # Welcome to your Lovable project
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/c0463c52-c2e0-4489-8864-cee8fb315b00
+
+**Demo URL**: https://page-magic-ai.lovable.app
 
 ## How can I edit this code?
 
