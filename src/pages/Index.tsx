@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import { DateRangeInput } from "@/components/DateRangeInput";
 
 const Index = () => {
   return (
@@ -15,6 +16,12 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
+        <div className="container mx-auto px-4 py-8">
+          <div className="max-w-md mx-auto glass-card p-6">
+            <h2 className="text-2xl font-bold mb-4">Date Selection</h2>
+            <DateRangeInput />
+          </div>
+        </div>
         <FeaturesSection />
         <HowItWorks />
         <TestimonialsSection />
